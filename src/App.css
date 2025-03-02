@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 95vh; */
+  background: url('https://www.transparenttextures.com/patterns/old-map.png'), #f8f9fa;
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.video {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .video {
+    max-width: 100%;
+  }
+}
